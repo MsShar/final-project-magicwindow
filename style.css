@@ -1,0 +1,189 @@
+body{
+height:100%;
+width:100%;
+overflow: hidden;
+}
+
+h1 {
+	margin: 10px 10px;
+}
+
+h2 {
+	margin: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.Page {
+	height: 80%!important;
+	width: 80%!important;
+	margin-left: 10%!important;
+	margin-right: 10%!important;
+	margin-top: 100px!important;
+	margin-bottom: 9%;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	position:absolute;
+    /*z-index: -1;*/ 
+    /*z-index allows you to place items in 
+    the background*/
+
+/*above is drawings*/
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.Next {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 0%;
+	text-align: left;
+    /*float: auto;*/
+    font-size: 20px;
+ 	color: white;
+ 	font-family: italic;
+ 	opacity:0.6;
+ 	background: black;
+ 	padding: 20px;
+
+}
+/* above is the text story box*/
+
+h1 {
+ text-align: center;
+ color:#FF6600;
+ font-style:oblique;
+ /*book title*/
+}
+
+h2 {
+
+	text-align: center;
+	color:#ff9900;
+
+	/*book subtitle bring forward*/
+ }
+
+ 
+
+#pageone {
+	background-image: url('castle.png');
+	background-size: 100% 100%;
+
+}
+#pagetwo {
+	background-image: url('window.png');
+	background-size: 100% 100%;
+
+}
+#pagethree {
+	background-image: url('wheel.jpg');
+	background-size: 100% 100%;
+
+}
+#pagefour {
+	background-image: url('dancing.png');
+	background-size: 100% 100%;
+
+}
+#pagefive {
+	background-image: url('girl.png');
+	background-size: 100% 100%;
+
+}
+/*continue pages below*/
+#pagesix {
+	background-image: url('princess.png');
+	background-size: 100% 100%;
+
+}
+#pageseven {
+	background-image: url('princessandprince.png');
+	background-size: 100% 100%;
+
+}
+#pageeight {
+	background-image: url('oldmanboy.png');
+	background-size: 100% 100%;
+
+}
+#pagenine {
+	background-image: url('oldman.png');
+	background-size: 100% 100%;
+
+}
+#pageten {
+	background-image: url('scary.png');
+	background-size: 100% 100%;
+
+}
+
+/*add more pages*/
+
+#pageeleven {
+	background-image: url('boyatwindow.png');
+	background-size: 100% 100%;
+
+}
+#pagetwelve {
+	background-image: url('happyboy.png');
+	background-size: 100% 100%;
+
+}
+#pagethirteen {
+	background-image: url('oldmanhappy.png');
+	background-size: 100% 100%;
+
+}
+#pagefourteen {
+	background-image: url('castle.jpg');
+	background-size: 100% 100%;
+
+}
+
+
+html {
+	background-image: url('http://bgfons.com/upload/brick_texture118.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: black;
+}
+
+div {
+	background-color: transparent!important;
+
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  background-color: transparent;
+
+  }
+
+a {
+	color: white !important;
+	font-weight: 300!important;
+	font-style: Helvetica;
+	margin-left: 0%!important;
+	margin-right: 10%!important;
+	/*above is the text story box... need to change text and 
+	make text bigger*/
+
+}
